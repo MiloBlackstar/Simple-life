@@ -1,0 +1,23 @@
+footer {
+  background-color: #143774;
+  padding: 3em;
+}
+
+.copyrights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.copyrights h4 {
+  font-size: 1rem;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.copyrights p {
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
