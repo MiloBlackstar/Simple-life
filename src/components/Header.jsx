@@ -10,7 +10,11 @@ export default function Header() {
           <ul>
             <li>
               <a href="#">HOME</a>
+            </li>
+            <li>
               <a href="#">ABOUT</a>
+            </li>
+            <li>
               <a href="#">RECENT POSTS</a>
             </li>
           </ul>

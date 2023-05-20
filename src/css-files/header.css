@@ -14,6 +14,8 @@ header {
   margin: 0 auto;
 }
 
+/* ---Title section--- */
+
 .title-section {
 
 }
@@ -28,4 +30,29 @@ header {
 .title-section p {
   font-weight: bold;
   color: #1792D2;
+}
+
+/* ---navbar section--- */
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 0.5em;
+  border: 1px solid magenta;
+  margin: 0em 1em; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #717171;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #1792D2;
+  outline: none;
+  border-bottom: 2px solid #1792D2;
 }
