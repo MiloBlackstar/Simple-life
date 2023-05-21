@@ -2,9 +2,3 @@ main {
   padding: 3em;
 }
 
-.container {
-  border: 1px solid magenta;
-  max-width: 980px;
-  width: 90%;
-  margin: 0 auto;
-}

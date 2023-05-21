@@ -1,3 +1,43 @@
-.large-image {
-  width: auto;
+.main-article {
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  border-bottom: 2px solid #707070;
 }
+
+.main-article .large-image {
+  width: 100%;
+}
+
+.main-article .data-comments {
+  margin: 1em 0em;
+}
+
+.main-article .data-comments span{
+  margin: 0em 0.5em 0em 0em;
+}
+
+.main-article h2 {
+  color: #143774;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.main-article .description {
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+.main-article a {
+  color: #1792D2;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+.main-article a:hover,
+.main-article a:focus    {
+  color: #EF2917;
+  outline: none;
+}
+
