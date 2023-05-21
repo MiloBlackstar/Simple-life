@@ -2,3 +2,7 @@ main {
   padding: 3em;
 }
 
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
