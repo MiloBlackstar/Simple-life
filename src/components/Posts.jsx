@@ -1,10 +1,8 @@
-import Food from '../images/food.jpg'
-
-export default function Posts() {
+export default function Posts(props) {
   return (
     <div className="white-border">
-          <img className="right-section-images" src={Food} />
-          <p class="post-title">Keeping cooking simple</p>
+          <img className="right-section-images" src={props.item.img} />
+          <p class="post-title">{props.item.title}</p>
     </div>
   )
 }
