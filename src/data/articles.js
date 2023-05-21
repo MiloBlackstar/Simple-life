@@ -24,5 +24,7 @@ export default [
     description: "A home isn't a home until you've decorated a little. People either don't decorate, or they go overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the eye where you want it to and make things pop like never before.",
     date: "July 5, 2019",
     commentsCount: 54,
-  }
+  },
+  
+  
 ]

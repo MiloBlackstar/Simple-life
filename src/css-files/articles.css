@@ -36,3 +36,15 @@ section {
 /*  style for <h2>, <p> and <a>
     in main-article.css
 */
+
+@media screen and (max-width: 1000px) {
+  .article-left-section p {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+  }
+
+  .wall {
+    display: none;
+  }
+}

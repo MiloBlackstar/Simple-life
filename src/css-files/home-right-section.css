@@ -35,3 +35,29 @@
   color: #143774;
 }
 
+@media screen and (max-width: 950px) {
+  .small-container {
+    background-color: #EBEBEB;
+    width: 100%;
+    padding: 4em;
+  }
+
+  .right-section-images {
+    width: 60%;
+  }
+
+  .my-description {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0.5em 0.25em;
+    color: #143774;
+  }
+
+  .post-title {
+    font-size: 1.2em;
+    padding: 0.5em;
+    line-height: 1.5;
+    color: #143774;
+  }
+}

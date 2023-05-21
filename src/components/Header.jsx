@@ -12,7 +12,7 @@ export default function Header() {
               <a href="#">HOME</a>
             </li>
             <li>
-              <a href="#">ABOUT</a>
+              <a href="#">ABOUT ME</a>
             </li>
             <li>
               <a href="#">RECENT POSTS</a>

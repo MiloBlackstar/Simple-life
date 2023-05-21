@@ -14,3 +14,21 @@ main {
   align-items: center;
   width: 25%;
 }
+
+@media screen and (max-width: 950px) {
+  main {
+    padding: 1em;
+  }
+
+  .container.home {
+    flex-direction: column;
+  }
+  .left-section {
+    width: 100%;
+  }
+
+  .right-section {
+    margin-top: 3em;
+    width: 100%;
+  }
+}

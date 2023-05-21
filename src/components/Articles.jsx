@@ -4,9 +4,9 @@ export default function Articles(props) {
       <div className="article-left-section">
         <img className="articles-images" src={props.item.img} />
         <p>
-          <span>{props.item.date}</span>
-          <span>|</span>
-          <span>{props.item.commentsCount} comments</span>
+          <span className="article-post-date">{props.item.date}</span>
+          <span className="wall">|</span>
+          <span className="article-comments-count">{props.item.commentsCount} comments</span>
         </p>
       </div>
       <div className="article-right-section">
