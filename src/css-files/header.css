@@ -59,6 +59,10 @@ nav ul li a:focus {
 }
 
 @media screen and (max-width: 950px) {
+  .title-section {
+    text-align: center;
+  }
+
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -69,3 +73,4 @@ nav ul li a:focus {
     padding: 1em;
   }
 }
+
