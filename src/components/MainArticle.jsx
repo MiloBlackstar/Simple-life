@@ -1,17 +1,14 @@
-import Life from '../images/life.jpg'
-
-export default function MainArticle() {
+export default function MainArticle(props) {
   return (
     <div className="main-article">
-      <img className="large-image" src={Life} />
+      <img className="large-image" src={props.item.img} />
       <p className="data-comments">
-        <span>July 23, 2019</span>
+        <span>{props.item.date}</span>
         <span>|</span>
-        <span>3 comments</span>
+        <span>{props.item.commentsCount} comments</span>
       </p>
-      <h2>Finding simplicity in life</h2>
-      <p className="description">Life can get complicated really quickly, but it doesn't have to be! There are many ways to simplify your life, a few of which we've explored in the past. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living.
-      </p>
+      <h2>{props.item.title}</h2>
+      <p className="description">{props.item.description}</p>
       <a className="article-link" href="#">Continue reading</a>
     </div>
   )
