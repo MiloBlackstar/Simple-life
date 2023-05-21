@@ -1,5 +1,6 @@
 section {
   margin-top: 2em;
+  display: flex;
 }
 
 /* ---left section--- */
@@ -8,7 +9,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25%;
+  max-width: 25%;
+  min-width: 25%;
 }
 
 .articles-images {
@@ -26,3 +28,11 @@ section {
 }
 
 /* ---right section--- */
+
+.article-right-section {
+  padding: 0em 2em;
+}
+
+/*  style for <h2>, <p> and <a>
+    in main-article.css
+*/

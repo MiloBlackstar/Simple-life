@@ -5,4 +5,11 @@ main {
 .left-section {
   display: flex;
   flex-direction: column;
+  width: 75%;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 }

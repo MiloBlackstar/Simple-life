@@ -8,9 +8,11 @@ export default function Home() {
         <div className="left-section">
           <MainArticle />
           <Articles />
+          <Articles />
+          <Articles />
         </div>
         <div className="right-section">
-
+          
         </div>
       </div>
     </main>

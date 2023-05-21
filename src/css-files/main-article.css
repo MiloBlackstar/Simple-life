@@ -17,26 +17,26 @@
   margin: 0em 0.5em 0em 0em;
 }
 
-.main-article h2 {
+.article-title {
   color: #143774;
   font-weight: 500;
   margin-bottom: 1em;
 }
 
-.main-article .description {
+.description {
   line-height: 1.5;
   margin-bottom: 1em;
 }
 
-.main-article a {
+.article-link {
   color: #1792D2;
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 1em;
 }
 
-.main-article a:hover,
-.main-article a:focus    {
+.article-link:hover,
+.article-link:focus    {
   color: #EF2917;
   outline: none;
 }
